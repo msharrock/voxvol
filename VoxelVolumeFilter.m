@@ -14,7 +14,7 @@
 
 - (float) calcZpos:(float*)IOP :(float*)IPP
 {
-    float xpos=IPP[0];
+    float xpos=IPP[0]; //consider changing these values to line up axes
     float ypos=IPP[1];
     float zpos=IPP[2];
     
